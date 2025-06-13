@@ -4,6 +4,7 @@ url: "https://atrisha.github.io/uwoagents"
 
 urlimg: '/images/'
 header-img: images/homepage.jpg
+baseurl: '/uwoagents'
 
 # Comments powered by utteranc.es
 utterances: "atrisha/atrisha.github.io"
