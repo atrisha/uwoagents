@@ -1,7 +1,6 @@
 title:            Humans and Agents Lab
 description:      "Humans and Agents Lab at Western University."
-url: "https://atrisha.github.io"
-baseurl: "/uwoagents"  # Include the leading slash
+url: "https://atrisha.github.io/uwoagents"
 
 urlimg: '/images/'
 header-img: images/homepage.jpg
