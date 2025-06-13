@@ -1,0 +1,23 @@
+principle_investigator:
+  - name: "Prof. Atrisha Sarkar"
+    image: "images/dummy_photo.png"
+    bio: "Assistant Professor in the Dept. of Electrical and Computer Engineering at Western University."
+    bio_link: "/about/"
+
+graduate_students:
+  - name: "Jonathan Bowen"
+    image: "images/members/dummy_photo1.png"
+    period: "May 2025 - Present"
+    position: "Research Assistant"
+    description: "Jonathan is working on the foundations of trust between humans and generative AI agents. He is a Phd student in the Department of Philosophy at Western University."
+
+
+undergraduate_students:
+  - name: "Jennifer Shi"
+    image: "images/members/dummy_photo2.png"
+    period: "May 2025 - Present"
+    description: "Jennifer is creating a new simulation framework using empirical game theory and generative AI agents for socio-ecological systems. She is also pursuing her B.Eng. degree in Software Engineering at Western University."
+
+
+alumni:
+
