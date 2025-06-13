@@ -3,7 +3,7 @@ permalink: /about/
 layout: page
 title: About Atrisha Sarkar
 description: A brief introduction of Dr. Atrisha Sarkar and this website.
-header-img: images/about.jpg
+header-img: /images/about.jpg
 comments: false
 modified: 2025-02-09
 breadcrumbs: true

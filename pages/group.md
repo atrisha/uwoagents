@@ -3,7 +3,7 @@ permalink: /group/
 layout: page
 title: Group Members
 description: "Group members: a list of current group members and alumni."
-header-img: images/research-1.jpg
+header-img: /images/research-1.jpg
 comments: false
 modified: 2025-01-10
 breadcrumbs: true
