@@ -4,7 +4,7 @@ url: "uwoagentslab.ca"
 
 urlimg: '/images/'
 header-img: images/homepage.jpg
-baseurl: '/uwoagents'
+baseurl: ''
 
 # Comments powered by utteranc.es
 utterances: "atrisha/atrisha.github.io"
