@@ -1,3 +1,3 @@
-task "assets:precompile" do
-  exec("jekyll build")
+task 'assets:precompile' do
+  sh "bundle exec jekyll build"
 end
