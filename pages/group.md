@@ -47,7 +47,7 @@ _Fully funded Masters, and PhD  positions are open for application! Please conta
 ## Undergraduate Students
 -----
 
-_Welcome undergraduate students to join our research group! Please contact Prof. Sarkar to make an appointment for interview._
+_We welcome domestic undergraduate students to join our research group for summer! Please contact Prof. Sarkar to make an appointment for interview._
 
 <div class="member-grid">
 {% for member in site.data.group.undergraduate_students %}

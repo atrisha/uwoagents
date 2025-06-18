@@ -6,7 +6,7 @@ principle_investigator:
 
 graduate_students:
   - name: "Jonathan Bowen"
-    image: "images/members/dummy_photo1.png"
+    image: "images/members/jonathan.jpeg"
     period: "May 2025 - Present"
     position: "Research Assistant"
     description: "Jonathan is working on the foundations of trust between humans and generative AI agents. He is a Phd student in the Department of Philosophy at Western University."
@@ -14,7 +14,7 @@ graduate_students:
 
 undergraduate_students:
   - name: "Jennifer Shi"
-    image: "images/members/dummy_photo2.png"
+    image: "images/members/jennifer_1.png"
     period: "May 2025 - Present"
     description: "Jennifer is creating a new simulation framework using empirical game theory and generative AI agents for socio-ecological systems. She is also pursuing her B.Eng. degree in Software Engineering at Western University."
 
