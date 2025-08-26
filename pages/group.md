@@ -66,6 +66,7 @@ _We welcome domestic undergraduate students to join our research group for summe
 -----
 
 - Prof. Krzysztof Czarnecki, University of Waterloo
+- Prof. Kate Larson, University of Waterloo
 - Prof. Gillian Hadfield, Johns Hopkins University 
 - Prof. Christopher Frantz, Norwegian University of Science and Technology (NTNU) 
 - Prof. Christian Kimmich, Institute for Advanced Studies, Vienna
