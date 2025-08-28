@@ -18,6 +18,9 @@ undergraduate_students:
     period: "May 2025 - Present"
     description: "Jennifer is creating a new simulation framework using empirical game theory and generative AI agents for socio-ecological systems. She is also pursuing her B.Eng. degree in Software Engineering at Western University."
 
+  - name: "Natalie Oulikhanian"
+    image: "images/members/dummy_photo1.png"
+    period: "August 2025 - Present"
+    description: "Natalie is a visiting undergraduate student from University of Toronto, and is working on deliberation and AI alignment."
 
-alumni:
 
