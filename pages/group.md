@@ -30,11 +30,11 @@ breadcrumbs: true
 
 _Fully funded Masters, and PhD  positions are open for application! Please contact Prof. Sarkar to make an appointment. I accept international students only for PhD positions unless I am familiar with your work._
 
-<div class="member-grid">
+<div class="member-list">
 {% for member in site.data.group.graduate_students %}
-  <div class="member-card">
-  <img src="{{ site.url }}/{{ member.image }}" alt="Member photo" class="member-thumbnail">
-    <div class="member-info">
+  <div class="member-list-item">
+    <img src="{{ site.url }}/{{ member.image }}" alt="Member photo" class="member-list-photo">
+    <div class="member-list-info">
       <h4>{{ member.name }}</h4>
       <h4>{{ member.position }}</h4>
       {% if member.period %}<p class="member-period">{{ member.period }}</p>{% endif %}
@@ -49,11 +49,11 @@ _Fully funded Masters, and PhD  positions are open for application! Please conta
 
 _We welcome domestic undergraduate students to join our research group for summer! Please contact Prof. Sarkar to make an appointment for interview._
 
-<div class="member-grid">
+<div class="member-list">
 {% for member in site.data.group.undergraduate_students %}
-  <div class="member-card">
-  <img src="{{ site.url }}/{{ member.image }}" alt="Member photo" class="member-thumbnail">
-    <div class="member-info">
+  <div class="member-list-item">
+    <img src="{{ site.url }}/{{ member.image }}" alt="Member photo" class="member-list-photo">
+    <div class="member-list-info">
       <h4>{{ member.name }}</h4>
       {% if member.period %}<p class="member-period">{{ member.period }}</p>{% endif %}
       <div class="member-description">{{ member.description | markdownify }}</div>

@@ -117,6 +117,80 @@
   }
 }
 
+// List format for members
+.member-list {
+  margin: 2rem 0;
+}
+
+.member-list-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #eee;
+  
+  &:last-child {
+    border-bottom: none;
+  }
+
+  .member-list-photo {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .member-list-info {
+    flex: 1;
+
+    h4 {
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      color: #222;
+      font-size: 1.2em;
+    }
+    
+    .member-period {
+      color: #666;
+      font-size: 0.9em;
+      margin: 0.5em 0;
+      font-style: italic;
+    }
+    
+    .member-description {
+      color: #444;
+      line-height: 1.6;
+      margin-top: 0.75rem;
+      
+      p {
+        margin: 0 0 1em;
+        
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+      
+      a {
+        color: #007bff;
+        text-decoration: none;
+        
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      
+      strong {
+        font-weight: bold;
+      }
+      
+      em {
+        font-style: italic;
+      }
+    }
+  }
+}
+
 
 // Position Cards
 .position-grid {
