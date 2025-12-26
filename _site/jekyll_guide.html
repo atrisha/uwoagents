@@ -7,8 +7,8 @@
 
 
 <meta charset="utf-8">
-<title>Jekyll Setup for MacOS &#8211; Humans and Agents Lab</title>
-<meta name="description" content="Humans and Agents Lab at Western University.">
+<title>Jekyll Setup for MacOS &#8211; uwoagents</title>
+<meta name="description" content="Website for Humans and Autonomous Agents Lab">
 
 
 
@@ -17,16 +17,16 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Jekyll Setup for MacOS">
-<meta property="og:description" content="Humans and Agents Lab at Western University.">
-<meta property="og:url" content="http://localhost:4000/jekyll_guide">
-<meta property="og:site_name" content="Humans and Agents Lab">
+<meta property="og:description" content="Website for Humans and Autonomous Agents Lab">
+<meta property="og:url" content="http://localhost:4000/jekyll_guide.html">
+<meta property="og:site_name" content="uwoagents">
 
 
 
 
 
-<link rel="canonical" href="http://localhost:4000/jekyll_guide">
-<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="Humans and Agents Lab Feed">
+<link rel="canonical" href="http://localhost:4000/jekyll_guide.html">
+<link href="http://localhost:4000/feed.xml" type="application/atom+xml" rel="alternate" title="uwoagents Feed">
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -71,21 +71,20 @@
 
 <!-- For plugin: jekyll-seo-tag -->
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Jekyll Setup for MacOS | Humans and Agents Lab</title>
+<title>Jekyll Setup for MacOS | uwoagents</title>
 <meta name="generator" content="Jekyll v3.10.0" />
 <meta property="og:title" content="Jekyll Setup for MacOS" />
-<meta name="author" content="atrisha" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Humans and Agents Lab at Western University." />
-<meta property="og:description" content="Humans and Agents Lab at Western University." />
-<link rel="canonical" href="http://localhost:4000/jekyll_guide" />
-<meta property="og:url" content="http://localhost:4000/jekyll_guide" />
-<meta property="og:site_name" content="Humans and Agents Lab" />
+<meta name="description" content="Website for Humans and Autonomous Agents Lab" />
+<meta property="og:description" content="Website for Humans and Autonomous Agents Lab" />
+<link rel="canonical" href="http://localhost:4000/jekyll_guide.html" />
+<meta property="og:url" content="http://localhost:4000/jekyll_guide.html" />
+<meta property="og:site_name" content="uwoagents" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Jekyll Setup for MacOS" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"atrisha"},"description":"Humans and Agents Lab at Western University.","headline":"Jekyll Setup for MacOS","url":"http://localhost:4000/jekyll_guide"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Website for Humans and Autonomous Agents Lab","headline":"Jekyll Setup for MacOS","url":"http://localhost:4000/jekyll_guide.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -112,7 +111,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <!--<a class="navbar-brand" href="/">Humans and Agents Lab</a>-->
+            <!--<a class="navbar-brand" href="/">uwoagents</a>-->
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -167,99 +166,85 @@
 
 <p>Run the following command</p>
 
-<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
-</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
 
 <h2 id="install-ruby">Install Ruby</h2>
 
 <p>Ruby version 3.1.3</p>
 
 <ul>
-  <li>Install <code class="language-text highlighter-rouge">ruby-install</code></li>
+  <li>Install <code class="language-plaintext highlighter-rouge">ruby-install</code></li>
 </ul>
 
-<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>brew <span class="nb">install </span>ruby-install
-</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>brew <span class="nb">install </span>ruby-install
+</code></pre></div></div>
 
-<p>If <code class="language-text highlighter-rouge">ruby-install</code> has been installed previously, force link</p>
+<p>If <code class="language-plaintext highlighter-rouge">ruby-install</code> has been installed previously, force link</p>
 
-<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>brew <span class="nb">link</span> <span class="nt">--overwrite</span> ruby-install
-</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>brew <span class="nb">link</span> <span class="nt">--overwrite</span> ruby-install
+</code></pre></div></div>
 
 <ul>
-  <li>Install <code class="language-text highlighter-rouge">ruby</code></li>
+  <li>Install <code class="language-plaintext highlighter-rouge">ruby</code></li>
 </ul>
 
-<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>ruby-install ruby
-</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ruby-install ruby
+</code></pre></div></div>
 
-<p>To see which <code class="language-text highlighter-rouge">ruby</code> version is supported, run</p>
+<p>To see which <code class="language-plaintext highlighter-rouge">ruby</code> version is supported, run</p>
 
-<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>$ ruby-install
-</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ruby-install
+</code></pre></div></div>
 
 <ul>
-  <li>Install <code class="language-text highlighter-rouge">chruby</code></li>
+  <li>Install <code class="language-plaintext highlighter-rouge">chruby</code></li>
 </ul>
 
-<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>brew <span class="nb">install </span>chruby
-</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>brew <span class="nb">install </span>chruby
+</code></pre></div></div>
 
 <ul>
-  <li>Setup <code class="language-text highlighter-rouge">chruby</code></li>
+  <li>Setup <code class="language-plaintext highlighter-rouge">chruby</code></li>
 </ul>
 
-<p>Add following lines to <code class="language-text highlighter-rouge">~/.zshrc</code></p>
+<p>Add following lines to <code class="language-plaintext highlighter-rouge">~/.zshrc</code></p>
 
-<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="nb">source</span> /usr/local/opt/chruby/share/chruby/chruby.sh
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">source</span> /usr/local/opt/chruby/share/chruby/chruby.sh
 <span class="nb">source</span> /usr/local/opt/chruby/share/chruby/auto.sh
 chruby 3.1.3
-</pre></td></tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <h2 id="install-jekyll">Install Jekyll</h2>
 
 <p>Jekyll version 4.3.1.</p>
 
-<p>Run <code class="language-text highlighter-rouge">which gem</code> to make sure you actually use the correct <code class="language-text highlighter-rouge">gem</code> and <code class="language-text highlighter-rouge">ruby</code>.</p>
+<p>Run <code class="language-plaintext highlighter-rouge">which gem</code> to make sure you actually use the correct <code class="language-plaintext highlighter-rouge">gem</code> and <code class="language-plaintext highlighter-rouge">ruby</code>.</p>
 
 <ul>
-  <li>Install <code class="language-text highlighter-rouge">jekyll</code>, <code class="language-text highlighter-rouge">github-pages</code>, and <code class="language-text highlighter-rouge">bundle</code></li>
+  <li>Install <code class="language-plaintext highlighter-rouge">jekyll</code>, <code class="language-plaintext highlighter-rouge">github-pages</code>, and <code class="language-plaintext highlighter-rouge">bundle</code></li>
 </ul>
 
-<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>gem <span class="nb">install </span>jekyll
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>jekyll
 <span class="nv">$ </span>gem <span class="nb">install </span>github-pages
 <span class="nv">$ </span>gem <span class="nb">install </span>bundle
-</pre></td></tr></tbody></table></code></pre></div></div>
+</code></pre></div></div>
 
 <ul>
-  <li>Add <code class="language-text highlighter-rouge">webrick</code> to <code class="language-text highlighter-rouge">bundle</code></li>
+  <li>Add <code class="language-plaintext highlighter-rouge">webrick</code> to <code class="language-plaintext highlighter-rouge">bundle</code></li>
 </ul>
 
-<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>bundle add webrick
-</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle add webrick
+</code></pre></div></div>
 
 <ul>
   <li>Install gems in the Gemfile</li>
 </ul>
 
-<p>If there is a <code class="language-text highlighter-rouge">Gemfile.lock</code> in the current directory, delete it, then run</p>
+<p>If there is a <code class="language-plaintext highlighter-rouge">Gemfile.lock</code> in the current directory, delete it, then run</p>
 
-<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre><span class="nv">$ </span>bundle <span class="nb">install</span>
-</pre></td></tr></tbody></table></code></pre></div></div>
+<div class="language-zsh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">install</span>
+</code></pre></div></div>
 
       <footer class="entry-meta">
         <div class="center">
@@ -267,8 +252,8 @@ chruby 3.1.3
         </div>
         <div class="social-share">
   <ul class="socialcount socialcount-small inline-list">
-    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/jekyll_guide" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
-    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/jekyll_guide" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
+    <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/jekyll_guide.html" title="Share on Facebook"><span class="count"><i class="fa fa-facebook-square"></i> Like</span></a></li>
+    <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://localhost:4000/jekyll_guide.html" title="Share on Twitter"><span class="count"><i class="fa fa-twitter-square"></i> Tweet</span></a></li>
   </ul>
 </div><!-- /.social-share -->
 
@@ -281,7 +266,7 @@ chruby 3.1.3
 </div><!-- /#main -->
 
 <div class="footer-wrapper">
-    <!--<span>&copy; 2025 Atrisha Sarkar. Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/" rel="notfollow">HPSTR Theme</a>.</span>-->
+    <!--<span>&copy; 2025 . Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> using the <a href="http://mademistakes.com/hpstr/" rel="notfollow">HPSTR Theme</a>.</span>-->
 
 <footer role="contentinfo">
     <div class="container">
@@ -297,30 +282,12 @@ chruby 3.1.3
                         </a>
                     </li>
                     
-                    <li>
-                        <a href="mailto:atrisha.sarkar@uwo.ca">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    
-                    
-                    <li>
-                        <a href="https://github.com/atrisha">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
                     
                     
                     
                     
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; Humans and Agents Lab 2013-2025, All Rights Reserved.</p>
+                <p class="copyright text-muted">Copyright &copy; uwoagents 2013-2025, All Rights Reserved.</p>
             </div>
         </div>
     </div>

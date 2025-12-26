@@ -6,23 +6,29 @@ principle_investigator:
 
 graduate_students:
 
+  - name: "Haoram (William) Wang"
+    image: "images/members/dummy_photo2.png"
+    period: "Jan 2026 - Present"
+    position: "PhD student"
+    description: "William is working on the intersection of multiagent systems and computational institutional sciences."
+
   - name: "Nour ElGharably"
     image: "images/members/dummy_photo2.png"
     period: "Sept 2025 - Present"
     position: "PhD student"
-    description: ""
+    description: "Nour is working on human-factors based approaches to cybersecurity of level-2 automated driving systems. (co-supervised with Prof. Mohamed Zaki)"
 
   - name: "Binchi Zhang"
     image: "images/members/dummy_photo2.png"
     period: "Sept 2025 - Present"
     position: "MESc student"
-    description: ""
+    description: "Binchi is working on interpretable embedding models (co-supervised with Prof. Luiz Capretz)"
 
   - name: "Larry Long"
     image: "images/members/dummy_photo2.png"
     period: "Sept 2025 - Present"
     position: "MESc student"
-    description: ""
+    description: "Larry in working on driving behaviour analysis for autonomous vehicles."
 
   - name: "Jonathan Bowen"
     image: "images/members/jonathan.jpeg"
@@ -46,5 +52,5 @@ undergraduate_students:
   - name: "Vishwa Dipakkumar Prajapati"
     image: "images/members/dummy_photo1.png"
     period: "August 2025 - Present"
-    description: "Vishwa is an undergraduate interested in Human-Robot interaction"
+    description: "Vishwa is an undergraduate student interested in Human-Robot interaction"
 

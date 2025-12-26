@@ -9,7 +9,7 @@ modified: 2025-02-09
 breadcrumbs: true
 ---
 
-Atrisha Sarkar is an Assistant Professor in the Department of Electrical and Computer Engineering at [Western University](https://uwo.ca), Canada, a Faculty Affiliate at the [Schwartz Reisman Institute for Technology and Society](https://srinstitute.utoronto.ca/), and Faculty Member at [Rotman Institute of Philosophy](https://www.rotman.uwo.ca/).
+Atrisha Sarkar is an Assistant Professor in the Department of Electrical and Computer Engineering at [Western University](https://uwo.ca), Canada. She is also a Faculty Affiliate at the [Schwartz Reisman Institute for Technology and Society](https://srinstitute.utoronto.ca/), a Faculty Member at [Rotman Institute of Philosophy](https://www.rotman.uwo.ca/), and member of [Computational Institutional Science Lab](https://cisl.info/personnel/)
 
 She received her Ph.D. from the David R. Cheriton School of Computer Science at the University of Waterloo working in [Prof. Krzysztof Czarnecki's](https://uwaterloo.ca/electrical-computer-engineering/profile/k2czarne)lab, and also worked closely with [Prof. Kate Larson](https://en.wikipedia.org/wiki/Kate_Larson_(computer_scientist)). During this time, she was part of the team behind one of the first self-driving cars on Canadian roads (Autonomoose). Following this, she was a postdoctoral fellow for two years at the Schwartz Reisman Institute for Technology and Society at the University of Toronto under [Prof. Gillian Hadfield](https://en.wikipedia.org/wiki/Gillian_Hadfield), and a research associate with the Vector Institute for Artificial Intelligence. Prior to starting grad school, she spent eight years working in industry, primarily at IBM software labs.
 
