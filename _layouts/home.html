@@ -29,6 +29,24 @@
   </div>
 </section>
 
+  <!-- News Panel Section -->
+  <section class="news-panel-section">
+    <div class="grid-container">
+      <h2 style="text-align: center; margin-bottom: 2rem;">Latest News</h2>
+      <div class="news-panel-grid">
+        {% for item in site.data.news limit:4 %}
+        <div class="news-panel-item">
+          <div class="news-date">{{ item.date }}</div>
+          <h3>{{ item.title }}</h3>
+          <div>{{ item.description | markdownify }}</div>
+        </div>
+        {% endfor %}
+      </div>
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="/news/" class="button">View All News</a>
+      </div>
+    </div>
+  </section>
 
   <!-- Featured Content Section -->
   <section class="featured-section">
