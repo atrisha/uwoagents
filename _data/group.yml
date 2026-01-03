@@ -1,5 +1,5 @@
 principle_investigator:
-  - name: "Prof. Atrisha Sarkar"
+  - name: "Atrisha Sarkar"
     image: "images/dummy_photo.png"
     bio: "Assistant Professor in the Dept. of Electrical and Computer Engineering at Western University."
     bio_link: "/about/"
@@ -32,7 +32,7 @@ graduate_students:
 
   - name: "Jonathan Bowen"
     image: "images/members/jonathan.jpeg"
-    period: "May 2025 - Present"
+    period: "May 2025 - August 2025"
     position: "Research Assistant"
     description: "Jonathan is working on the foundations of trust between humans and generative AI agents. He is a Phd student in the Department of Philosophy at Western University."
 
