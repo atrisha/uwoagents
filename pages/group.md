@@ -28,7 +28,7 @@ breadcrumbs: true
 ## Graduate Students
 -----
 
-_Fully funded Masters, and PhD  positions are open for application! Please contact Prof. Sarkar to make an appointment. I accept international students only for PhD positions unless I am familiar with your work._
+<!-- _Fully funded Masters, and PhD  positions are open for application! Please contact Prof. Sarkar to make an appointment. I accept international students only for PhD positions unless I am familiar with your work._ -->
 
 <div class="member-list">
 {% for member in site.data.group.graduate_students %}
