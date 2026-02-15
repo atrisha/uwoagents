@@ -53,20 +53,31 @@
   }
   
   .hero-title {
+    font-family: 'Inter', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 3.5rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1rem;
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
     color: adjust-color($primary, $lightness: 50%, $saturation: 50%);
+    line-height: 1.3;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    
+    .title-lab {
+      font-weight: 500;
+      letter-spacing: 0.03em;
+    }
   }
   
   .hero-subtitle {
-    font-size: 1.5rem;
+    font-family: 'Inter', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 1.1rem;
     margin-bottom: 2rem;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    color: rgba(255, 255, 255, 0.75);
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
   }
   
   .hero-cta {
@@ -75,28 +86,31 @@
     gap: 1rem;
     
     .button {
+      font-family: 'Inter', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       padding: 1rem 2rem;
       border-radius: 25px;
-      font-weight: 600;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
       transition: all 0.3s ease;
       
       &.primary {
-        background: $primary;
+        background: darken($primary, 15%);
         color: white;
         
         &:hover {
-          background: darken($primary, 10%);
+          background: darken($primary, 20%);
         }
       }
       
       &.secondary {
-        background: transparent;
+        background: white;
         border: 2px solid white;
-        color: white;
+        color: $primary;
         
         &:hover {
-          background: white;
-          color: $primary;
+          background: transparent;
+          color: white;
         }
       }
     }

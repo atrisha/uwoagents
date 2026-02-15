@@ -30,12 +30,12 @@ $body-color: #f1f8ff;
 $text-color: rgba(#222, 0.8);
 $text-color-light: rgba(#222, 0.6);
 $border-color: lighten($text-color, 60%);
-$nav-color: lighten($primary, 30%);
-$nav-faded: lighten($primary, 15%);
-$nav-brand-faded: lighten($primary, 25%);
-$nav-brand-fix-faded: lighten($primary, 30%);
-$nav-fix-faded: lighten($primary, 20%);
-$navbar-bgcolor: darken($primary, 10%);
+$nav-color: rgba(#222, 0.8);
+$nav-faded: rgba(#222, 0.6);
+$nav-brand-faded: rgba(#222, 0.7);
+$nav-brand-fix-faded: rgba(#222, 0.8);
+$nav-fix-faded: rgba(#222, 0.7);
+$navbar-bgcolor: lighten($primary, 20%);
 $nav-bgcolor: $navbar-bgcolor;
 
 // Links

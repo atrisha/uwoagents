@@ -30,10 +30,6 @@ rarely choose the most optimal action that a computational model suggests.
 
 ### 1.1 Driving games
 
-<figure class="research-figure">
-    <img src="{{ site.url }}/images/research/etdrk4.png" alt="">
-</figure>
-
 Although there has been an increasing interest in the use of game theoretic models for AV, it
 is not clear which solution concepts align well with naturalistic driving behaviour. Based on the
 structure of a hierarchical game, this work developed various design choices that can be used

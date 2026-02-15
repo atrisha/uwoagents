@@ -63,6 +63,14 @@
 			}
 		}
 	}
+	
+	// Center the navigation links
+	.navbar-nav.navbar-right {
+		float: none !important;
+		margin: 0 auto;
+		display: table;
+		table-layout: fixed;
+	}
 	@media #{$medium} {
 		// background: transparent;
         background: $navbar-bgcolor;
