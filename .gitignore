@@ -9,3 +9,4 @@ backup
 _backup
 _drafts
 .vscode
+.claude/worktrees/

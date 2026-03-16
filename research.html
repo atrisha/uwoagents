@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Research — Humans &amp; Autonomous Agents Lab</title>
+  <meta name="description" content="Research projects at the Humans and Autonomous Agents Lab: autonomous vehicles, game theory, norms, and computational social science." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="brand" href="index.html">Humans &amp; Autonomous Agents Lab</a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="group.html">Group</a></li>
+      <li><a href="research.html" class="active">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="about.html">Bio</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <div class="page-header">
+    <h1>Current Research</h1>
+    <p>Multiagent systems, AI safety, game theory, and computational social science.</p>
+  </div>
+
+  <p class="research-intro">
+    The Humans and Autonomous Agents Lab works on several aspects of multiagent systems
+    that interact with humans in complex environments. We conduct both theoretical and
+    experimental studies to understand the nature of human and automated reasoning within
+    these systems. Our focus is interdisciplinary — drawing from computer science,
+    engineering, psychology, and economics.
+  </p>
+
+  <!-- ── 1. Autonomous Vehicles ─────────────────────────── -->
+  <details class="rsection">
+    <summary>
+      <i class="toggle-icon">›</i>
+      1 &nbsp; Autonomous Vehicles and Human Interaction
+    </summary>
+    <div class="rsection-body">
+      <p class="rsection-intro">
+        For some foreseeable future, self-driving cars will interact with human-driven vehicles
+        and other road users. Game-theoretic models of human driving behaviour are a promising
+        tool for testing and verification of AVs. We have developed a suite of models and methods at the intersection of game theory and behaviour planning and modelling for autonomous driving.
+      </p>
+
+      <details class="rsub">
+        <summary>1.1 &nbsp; Driving Games</summary>
+        <p>
+          This work developed design choices for constructing hierarchical driving games, along
+          with behavioural game-theory solution concepts, producing over thirty behaviour models
+          evaluated for model fit and predictive accuracy on naturalistic data. Published in AAAI (2021).
+        </p>
+      </details>
+
+      <details class="rsub">
+        <summary>1.2 &nbsp; Revealed Multiobjective Preferences</summary>
+        <p>
+          Driving is a multi-objective task and humans aggregate safety and progress objectives
+          in context-specific ways. Based on rationalisability, we developed algorithms
+          for estimating multiobjective aggregation of driving decisions. Published in AAMAS (2023).
+        </p>
+      </details>
+
+      <details class="rsub">
+        <summary>1.3 &nbsp; Cognitive Hierarchy Models</summary>
+        <p>
+          Addresses model instability and uncertainty in dynamic traffic games by developing
+          a finite-state transducer-based level-0 model within the level-k framework, and
+          a generalised cognitive hierarchy model with nonstrategic, strategic, and robust
+          layers to handle heterogeneous reasoners. Published in AAAI (2022).
+        </p>
+      </details>
+
+      <details class="rsub">
+        <summary>1.4 &nbsp; Game-Theoretic Safety Validation</summary>
+        <p>
+          Novel safety validation methods for AV planners: a Quantal Best Response model
+          for interpretable lane-change behaviour generation, and a hypergame-based
+          Dynamic Occlusion Risk (DOR) metric for evaluating safety under dynamic occlusion. Published in IROS (2019) and ICRA (2022)
+        </p>
+      </details>
+
+      <details class="rsub">
+        <summary>1.5 &nbsp; Taxonomy of Strategic Interactions</summary>
+        <p>
+          We developed a taxonomy that maps complex design-specific strategies in a driving game
+          to a simpler, explainable taxonomy of traffic interactions — enabling regulators to
+          reason over simplified strategies while protecting proprietary AV design decisions. Presented at NeurIPS Cooperative AI Workshop (2021).
+        </p>
+      </details>
+    </div>
+  </details>
+
+  <!-- ── 2. Software & Societal Systems ────────────────── -->
+  <details class="rsection">
+    <summary>
+      <i class="toggle-icon">›</i>
+      2 &nbsp; Software and Societal Systems
+    </summary>
+    <div class="rsection-body">
+      <details class="rsub">
+        <summary>2.1 &nbsp; Opinion Expression and Silence on Social Platforms</summary>
+        <p>
+          We developed a nested game-theoretic model showing how observed online opinion is shaped by
+          user decisions, viewpoint organisations, and AI-powered recommender systems.
+          The model explains how signals from ideological organisations drive rhetorical
+          intensity and the rational silence of moderate users — producing apparent
+          polarisation without changes in underlying beliefs. Published in JAIR (2026).
+        </p>
+      </details>
+    </div>
+  </details>
+
+  <!-- ── 3. Norms & Values ──────────────────────────────── -->
+  <details class="rsection">
+    <summary>
+      <i class="toggle-icon">›</i>
+      3 &nbsp; Norms and Values in Multiagent Systems
+    </summary>
+    <div class="rsection-body">
+      <details class="rsub">
+        <summary>3.1 &nbsp; Normative Modules in Generative Agents</summary>
+        <p>
+          The Normative Module framework enables generative agents to recognise and adapt
+          to normative infrastructure — learning through peer interactions which institutions
+          a group treats as authoritative. Coordinated sanctioning behaviour shaped by the
+          module leads to higher average welfare and more stable cooperative outcomes. Presented at Economic and Computation Workshop on Foundation models and Game Theory (2024).
+        </p>
+      </details>
+
+      <details class="rsub">
+        <summary>3.2 &nbsp; Structural transparency of societal AI alignment through Institutional Logics</summary>
+        <p>This paper introduces "structural transparency," a framework for analyzing how organizational and institutional forces shape AI alignment decisions — an area overlooked by existing transparency approaches that focus mainly on technical and informational aspects. It uses Institutional Logics theory to map alignment governance decisions to sociotechnical harms, offering analysts a way to examine the macro-level institutional dynamics behind AI value integration. <em>(With Isam Faik).</em></p>
+      </details>
+
+      <details class="rsub">
+        <summary>3.3 &nbsp; Trust Formation in Human–Generative Agent Interaction</summary>
+        <p><em>Work In progress.</em></p>
+      </details>
+    </div>
+  </details>
+
+  <!-- ── 4. Generative Multiagent Modelling ─────────────── -->
+  <details class="rsection">
+    <summary>
+      <i class="toggle-icon">›</i>
+      4 &nbsp; Generative Multiagent Modelling for Socio-Ecological Systems
+    </summary>
+    <div class="rsection-body">
+      <p class="rsection-intro">
+        Designing institutions for social-ecological systems requires models that capture
+        heterogeneity, uncertainty, and strategic interaction. In this work, we compare four LLM-augmented
+        frameworks — procedural ABMs, generative ABMs, LLM-EGTA, and expert-guided LLM-EGTA —
+        evaluated on a real-world case study of irrigation and fishing governance in the
+        Amu Darya basin. Accepted at AAMAS 2026.
+      </p>
+    </div>
+  </details>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <span>Humans &amp; Autonomous Agents Lab · Western University</span>
+    <span>Department of Electrical and Computer Engineering</span>
+  </div>
+</footer>
+
+</body>
+</html>
